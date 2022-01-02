@@ -13,4 +13,5 @@ In the folder *figures*, the outputs of the scripts (i.e. results of experiments
 The code for the project is written in R (version 4.1.1.). To run all the scripts you need to have installed the following libraries (available on CRAN):
 
 - ggplot2 (version 3.3.4),
-- mvtnorm (version 1.1.3) (needed just for the contextual bandits).
+- mvtnorm (version 1.1.3) (needed just for the contextual bandits),
+- stats (version 4.1.1).

@@ -3,6 +3,8 @@ if (rstudioapi::isAvailable()) {
   setwd(file.path(dirname(rstudioapi::getActiveDocumentContext()$path), "."))
 }
 
+library(stats)
+
 ### Simple clustering
 
 prepare_cluster <- function(N=100, K=10, A_=10, w_=.1, d=.1, N_max=3000, seed=1){

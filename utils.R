@@ -392,6 +392,7 @@ hts_non_binary <- function(shapes1_t, shapes2_t, shapes1_a, shapes2_a, theta, tr
 uct <- function(played_node, played_arm, theta, tree, N_max=3000){
   # Upper cofidence bound algorithm for trees (Kocsis et al. 2006)
   # (UCB1 algorithm applied at each node)
+  # Currently implemented for max 3 levels L in the hierarchical structure
   
   rewards <- c()
   node_r <- played_node

@@ -1,5 +1,7 @@
 # Reproducibility challenge 2021
 
+[![DOI](https://zenodo.org/badge/439934966.svg)](https://zenodo.org/badge/latestdoi/439934966)
+
 This work aims to reproduce the experiments from the paper Thompson Sampling for Bandits with Clustered Arms (Carlsson et al. 2021, available on [link](https://www.ijcai.org/proceedings/2021/0305.pdf)), presented at the IJCAI 2021.
 
 ## Repository structure
